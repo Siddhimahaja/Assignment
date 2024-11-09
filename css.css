@@ -1,0 +1,108 @@
+/* General Styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f6fb;
+    color: #333;
+}
+
+.hero-section {
+    background: linear-gradient(45deg, #0e0f34, #3a41d4);
+    color: #fff;
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.hero-section h1 {
+    font-size: 2.5rem;
+}
+
+.cta-button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #2f2fd8;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.cta-button:hover {
+    background-color: #5757f2;
+}
+
+.why-choose, .benefits-table, .network, .partner-logos {
+    padding: 40px 20px;
+}
+
+.why-choose h2, .benefits-table h2, .network h2, .partner-logos h2 {
+    margin-bottom: 20px;
+}
+
+.accordion-toggle {
+    background: none;
+    border: none;
+    font-size: 1rem;
+    cursor: pointer;
+    color: #2f2fd8;
+    padding: 10px;
+    transition: color 0.3s;
+}
+
+.accordion-toggle:hover {
+    color: #5757f2;
+}
+
+.accordion-content {
+    display: none;
+    margin-top: 10px;
+}
+
+.benefits-table table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.benefits-table th, .benefits-table td {
+    padding: 12px;
+    border-bottom: 1px solid #ddd;
+    font-weight: bold;
+}
+
+.network p {
+    font-size: 1.1rem;
+}
+
+.logos img {
+    width: 100px;
+    margin: 10px;
+    transition: transform 0.3s;
+}
+
+.logos img:hover {
+    transform: scale(1.1);
+}
+
+#scroll-to-top {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #0e0f34;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+/* Dark Mode Toggle */
+body.dark-mode {
+    background-color: #222;
+    color: #ddd;
+}
